@@ -54,6 +54,10 @@ main{
 
 /*******************section man-woman****************/
 
+.man-woman{
+    background: linear-gradient(90deg, #f9f6f1 0%, #f9f6f1 50%, #f9e0e0 50%, #f9e0e0 100%);
+}
+
 .man-woman .container{
     display: flex;
     flex-direction: row;
@@ -61,4 +65,53 @@ main{
 
 .man , .woman{
 width: 50%;
+padding-top: 60px;
+padding-bottom: 58px;
+
 }
+
+.man{
+    background-color: #f9f6f1;
+    background: url(../img/man.png) no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+.woman{
+    background-color: #f9e0e0;
+    padding-left: 35px;
+    background: url(../img/woman.png) no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+.man-woman h2{
+    font-size: 24px;
+    margin-bottom: 25px;
+
+}
+
+.man-woman h2 span{
+    font-weight: normal;
+}
+
+.man-woman p{
+    font-weight: 300;
+}
+
+.man-woman a{
+    display: flex;
+    background-color: #d7b399;
+    width: 80px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+
+.man-woman a:hover{
+    background-color:peru ;
+}
+
+
